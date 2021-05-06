@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title>Gastenboek</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+
+<body class="form-container">
+    <form name="contact" method="POST" action="mailto:v_de_bruin@hotmail.come" enctype="text/plain">
+        <h1>Gastenboek Black Fuse</h1>
+        <img width="500" src="BF logo.jpg" alt="Black Fuse" />
+        <p>
+            <label class="labelform">Naam: <input class="bodyform" type="text" name="name" /></label>
+        </p>
+        <p>
+            <label class="labelform">Email: <input class="bodyform" type="email" name="email" /></label>
+        </p>
+        <p>
+            <label class="labelform">Telefoonnummer: <input class="bodyform" type="tel" name="tel" /></label>
+        </p>
+        <p>
+            <label class="labelform">Leeftijd: <input class="bodyform" type="number" name="number" /></label>
+        </p>
+        <p>
+            <label class="labelform">Geboortedatum: <input class="bodyform" type="date" name="date" /></label>
+        </p>
+        <p>
+            <label>Gender:
+                <input type="radio" name="man" value="man">
+                <label for="gender">Man</label>
+                <input type="radio" name="vrouw" value="vrouw">
+                <label for="gender">Vrouw</label>
+                <input type="radio" name="genderneutraal" value="genderneutraal">
+                <label for="gender">Genderneutraal</label>
+                <input type="radio" name="zeg ik liever niet" value="zeg ik liever niet">
+                <label for="gender">Zeg ik liever niet</label>
+            </label>
+        </p>
+        <p>
+            <label>Favoriete bandlid:
+                <input type="checkbox" name="Tijmen" value="bandlid">
+                <label for="favoriete bandlid">Tijmen</label>
+                <input type="checkbox" name="Rocco" value="bandlid">
+                <label for="favoriete bandlid">Rocco</label>
+                <input type="checkbox" name="Jeroen" value="bandlid">
+                <label for="favoriete bandlid">Jeroen</label>
+                <input type="checkbox" name="Edwin" value="bandlid">
+                <label for="favoriete bandlid">Edwin</label>
+                <input type="checkbox" name="Bassie" value="bandlid">
+                <label for="favoriete bandlid">Bassie</label>
+            </label>
+        </p>
+        <p>
+            <label>
+                In deze kleur wil ik graag een bandshirt kopen: <input type="color" name="colorpicker"
+                    value="#ff0000"></label>
+        </p>
+        <p>
+            <label>Berichtje: <textarea name="message" rows="10" cols="50"></textarea></label>
+        </p>
+        <p> <label for="upload">Upload hier een leuke foto:</label>
+            <input type="file" name="avatar">
+        </p>
+        <img width="500" src="BF banner.jpg" alt="Black Fuse" />
+        <p>
+            <button type="reset">Maak formulier leeg</button>
+        </p>
+        <p>
+            <button type="submit">Verzend</button>
+        </p>
+    </form>
+</body>
+
+</html>

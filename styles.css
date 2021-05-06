@@ -1,0 +1,92 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 500px 300px 200px;
+    height: 1000px;
+    grid-template-areas: 
+    "site" "header"
+    "nav"
+    "main"
+    "footer"
+}
+
+header {
+    background-color: black;
+    grid-area: header;
+    font-family: Arial Black;
+        color:red;
+}
+nav {
+    background-color: black;
+    grid-area: header;
+    font-family: Arial Black;
+        color:red; 
+}
+
+main {
+    background-color: black;
+    grid-area: header;
+    font-family: Arial Black;
+        color:red; 
+}
+
+footer {
+    background-color: black;
+    grid-area: header;
+    font-family: Arial Black;
+        color:red; 
+}
+
+aside {
+            background-color: black;
+            grid-area: header;
+            font-family: Arial Black;
+                color:red;  
+}
+
+iframe {
+    background-color: black;
+    grid-area: header;
+    font-family: Arial Black;
+        color:red;  
+}
+
+body {
+    background-color: black;
+    font-family: Arial Black;
+    color:red; 
+}
+
+    @media only screen and (min-width:600px){
+        body {
+            background-color:red;
+            font-family:'Courier New';
+            color: blueviolet;
+        }
+    }
+
+.icon {
+    width: 200px;
+    height:50px;
+    display: flex;
+   flex-direction: column;
+}
+
+.form-container {
+        background-color: black;
+        font-family: Arial Black;
+        color:red;
+        display: flex;
+}
+
+.labelform {
+    margin: 10px;
+    display: flex;
+ 
+}
+    
+.labelform input {
+    flex: 3;
+}
+
+

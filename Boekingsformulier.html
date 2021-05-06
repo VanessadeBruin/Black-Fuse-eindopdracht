@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title>Boekingsformulier</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+</head>
+
+<body class="form-container">
+    <form name="contact" method="POST" action="mailto:v_de_bruin@hotmail.come" enctype="text/plain">
+        <h1>Boekingsformulier</h1>
+        <img width="500" src="BF logo.jpg" alt="Black Fuse" />
+        <p>
+            <label class="labelform">Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label class="labelform">Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label class="labelform">Telefoonnummer: <input type="tel" name="tel" /></label>
+        </p>
+        <p>
+            <label class="labelform">Naam concertzaal: <input type="text" name="zaal" /></label>
+        </p>
+        <p>
+            <label class="labelform">Naam concertzaal: <input type="text" name="zaal" /></label>
+        </p>
+        <p>
+            <label class="labelform"> Max personen in concertzaal: <input type="number" name="max" /></label>
+        </p>
+        <p>
+            <label class="labelform"> Datum boeking: <input type="date" name="date" /></label>
+        </p>
+        <p>
+            <label class="labelform">Plaats concertzaal: <input type="text" name="plaats" /></label>
+        </p>
+
+        <p>
+            <label>Optreden bij</label>:
+            <input type="radio" name="zaal" value="zaal">
+            <label for="optreden bij">concertzaal</label>
+            <input type="radio" name="tent" value="tent">
+            <label for="optreden bij">festivaltent</label>
+            <input type="radio" name="podium" value="podium">
+            <label for="optreden bij">festivalpodium</label>
+        </p>
+        <p>
+            <label>Mogelijkheid tot:
+                <input type="checkbox" name="Meet and Greet" value="options">
+                <label for="favoriete bandlid">Meet and Greet Backstage</label>
+                <input type="checkbox" name="VIP Backstage" value="options">
+                <label for="favoriete bandlid">VIP Backstage </label>
+                <input type="checkbox" name="Merchandise" value="options">
+                <label for="favoriete bandlid">Verkopen van merchandise</label>
+            </label>
+        </p>
+        <p>
+            <label>Overige vragen en/of opmerkingen <textarea name="message" rows="10" cols="50"></textarea></label>
+        </p>
+        <p> <label for="upload">Upload hier eventueel meer informatie over concertzaal of festival</label>
+            <input type="file" name="more info">
+        </p>
+        <h3>Wilt u liever niet online boeken neem dan contact op met 06-57995678
+        </h3>
+        <img width="500" src="BF banner.jpg" alt="Black Fuse" />
+        <p>
+            <button type="reset">Maak formulier leeg</button>
+        </p>
+        <p>
+            <button type="submit">Verzend</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
